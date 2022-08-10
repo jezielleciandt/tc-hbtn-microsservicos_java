@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.jpah2demo.JpaH2DemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.62 s - in com.example.jpah2demo.JpaH2DemoApplicationTests
