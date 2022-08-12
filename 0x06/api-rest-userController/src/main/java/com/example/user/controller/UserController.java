@@ -24,7 +24,7 @@ public class UserController {
     @GetMapping("/user-name/{userName}")
     public String findUserByName(@PathVariable String userName) {
 
-        String msg = "You have entered valid user name";
+        String msg = "You have entered valid USERNAME";
         if (!isUserName(userName)) {
             throw new UserNameException(userName);
         }
@@ -34,7 +34,7 @@ public class UserController {
     @GetMapping("/user-cpf/{cpf}")
     public String findUserByCPF(@PathVariable String cpf) {
 
-        String msg = "";
+        String msg = "You have entered valid CPF";
         if(!isCPF(cpf)){
             throw new CPFException(cpf);
         }
